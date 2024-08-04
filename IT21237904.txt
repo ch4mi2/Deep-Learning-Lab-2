@@ -1,0 +1,11 @@
+IT21237904 - Gunawardana U.G.C.D
+
+1.What happens when the number of hidden nodes increase?
+ans - more hidden nodes allow the the network to learn more complex patterns, this means the network will
+      take longer to train and require more memory. Overfitting can occur due to smaller dataset.
+
+2. Can you explain the pattern of the accuracy when the hidden nodes increase?
+ans - initially with 1-2 hidden units the accuracy is low.
+      from 2-3 hidden units the accuracy jumps indicating that 3 hidden units are enough.
+      from 3-5 hidden units the accuracy is slightly improving.
+      from 20-50 hidden units the accuracy drops, this could mean its overfitting.
